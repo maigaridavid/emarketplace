@@ -29,12 +29,16 @@ import React from 'react';
 import './App.css';
 import HomePage from './Views/HomePages.js'
 import ProductList from './Views/Product.js';
+import Features from './Views/Features.js'
+
+
 
 function App() {
   return (
     <div className="App">
       <HomePage/>
        <ProductList />
+      <Features />
     </div>
   );
 }
