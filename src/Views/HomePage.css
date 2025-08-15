@@ -5,4 +5,29 @@
     padding: 50px;
 }
 
+/* src/Views/HomePage.css */
+.cafe-homepage {
+    text-align: center;
+    padding: 50px;
+}
 
+/* Tablet view */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .cafe-homepage {
+        padding: 30px;
+    }
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .cafe-homepage {
+        padding: 20px;
+    }
+}
+
+/* Extra small mobile view */
+@media (max-width: 480px) {
+    .cafe-homepage {
+        padding: 15px;
+    }
+}

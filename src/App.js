@@ -30,6 +30,7 @@ import './App.css';
 import HomePage from './Views/HomePages.js'
 import ProductList from './Views/Product.js';
 import Features from './Views/Features.js'
+import Footer from './Views/Footer.js';
 
 
 
@@ -39,6 +40,7 @@ function App() {
       <HomePage/>
        <ProductList />
       <Features />
+      <Footer />
     </div>
   );
 }
