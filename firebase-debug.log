@@ -1,0 +1,44 @@
+[debug] [2025-08-13T21:54:04.935Z] ----------------------------------------------------------------------
+[debug] [2025-08-13T21:54:04.938Z] Command:       /usr/local/bin/node /Users/mac/Desktop/emarketplace/node_modules/.bin/firebase serve
+[debug] [2025-08-13T21:54:04.939Z] CLI Version:   14.11.2
+[debug] [2025-08-13T21:54:04.939Z] Platform:      darwin
+[debug] [2025-08-13T21:54:04.939Z] Node Version:  v22.17.0
+[debug] [2025-08-13T21:54:04.940Z] Time:          Wed Aug 13 2025 22:54:04 GMT+0100 (West Africa Standard Time)
+[debug] [2025-08-13T21:54:04.940Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-13T21:54:05.349Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-13T21:54:05.349Z] > authorizing via signed-in user (maigaridavid90@gmail.com)
+[debug] [2025-08-13T21:54:05.350Z] [iam] checking project emarketplaceshop for permissions ["firebase.projects.get"]
+[debug] [2025-08-13T21:54:05.350Z] Checked if tokens are valid: true, expires at: 1755124414115
+[debug] [2025-08-13T21:54:05.351Z] Checked if tokens are valid: true, expires at: 1755124414115
+[debug] [2025-08-13T21:54:05.352Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/emarketplaceshop:testIamPermissions [none]
+[debug] [2025-08-13T21:54:05.352Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/emarketplaceshop:testIamPermissions x-goog-quota-user=projects/emarketplaceshop
+[debug] [2025-08-13T21:54:05.352Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/emarketplaceshop:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-08-13T21:54:06.630Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/emarketplaceshop:testIamPermissions 200
+[debug] [2025-08-13T21:54:06.631Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/emarketplaceshop:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-08-13T21:54:06.632Z] Checked if tokens are valid: true, expires at: 1755124414115
+[debug] [2025-08-13T21:54:06.632Z] Checked if tokens are valid: true, expires at: 1755124414115
+[debug] [2025-08-13T21:54:06.634Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/emarketplaceshop [none]
+[debug] [2025-08-13T21:54:07.164Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/emarketplaceshop 200
+[debug] [2025-08-13T21:54:07.164Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/emarketplaceshop {"projectNumber":"775607436688","projectId":"emarketplaceshop","lifecycleState":"ACTIVE","name":"emarketplace","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-06-27T14:56:41.183441Z"}
+[info] 
+[info] === Serving from '/Users/mac/Desktop/emarketplace'...
+[info] 
+[debug] [2025-08-13T21:54:07.171Z] Checked if tokens are valid: true, expires at: 1755124414115
+[debug] [2025-08-13T21:54:07.171Z] Checked if tokens are valid: true, expires at: 1755124414115
+[debug] [2025-08-13T21:54:07.172Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/emarketplaceshop/sites 
+[debug] [2025-08-13T21:54:09.509Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/emarketplaceshop/sites 200
+[debug] [2025-08-13T21:54:09.510Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/emarketplaceshop/sites {"sites":[{"name":"projects/emarketplaceshop/sites/emarketplaceshop","defaultUrl":"https://emarketplaceshop.web.app","appId":"1:775607436688:web:35dfbbab4a864a9e059f15","type":"DEFAULT_SITE"}]}
+[debug] [2025-08-13T21:54:09.510Z] Checked if tokens are valid: true, expires at: 1755124414115
+[debug] [2025-08-13T21:54:09.510Z] Checked if tokens are valid: true, expires at: 1755124414115
+[debug] [2025-08-13T21:54:09.510Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/emarketplaceshop/webApps/1:775607436688:web:35dfbbab4a864a9e059f15/config [none]
+[debug] [2025-08-13T21:54:12.271Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/emarketplaceshop/webApps/1:775607436688:web:35dfbbab4a864a9e059f15/config 200
+[debug] [2025-08-13T21:54:12.272Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/emarketplaceshop/webApps/1:775607436688:web:35dfbbab4a864a9e059f15/config {"projectId":"emarketplaceshop","appId":"1:775607436688:web:35dfbbab4a864a9e059f15","storageBucket":"emarketplaceshop.firebasestorage.app","apiKey":"AIzaSyBeJJ_GbRzn3f-fqYEY6mCYuOK2-nIuy8w","authDomain":"emarketplaceshop.firebaseapp.com","messagingSenderId":"775607436688","measurementId":"G-7MWXQ952V8"}
+[debug] [2025-08-13T21:54:12.287Z] Checked if tokens are valid: true, expires at: 1755124414115
+[debug] [2025-08-13T21:54:12.287Z] Checked if tokens are valid: true, expires at: 1755124414115
+[debug] [2025-08-13T21:54:12.288Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/emarketplaceshop [none]
+[debug] [2025-08-13T21:54:12.771Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/emarketplaceshop 200
+[debug] [2025-08-13T21:54:12.771Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/emarketplaceshop {"projectId":"emarketplaceshop","projectNumber":"775607436688","displayName":"emarketplace","name":"projects/emarketplaceshop","resources":{"hostingSite":"emarketplaceshop"},"state":"ACTIVE","etag":"1_72c938b5-bf44-4613-86cf-c03cb5152121"}
+[info] i  hosting[emarketplaceshop]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] ✔  hosting[emarketplaceshop]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [13/Aug/2025:21:54:19 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [13/Aug/2025:21:54:19 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\""}}
